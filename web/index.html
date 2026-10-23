@@ -6,7 +6,84 @@
     <title>Golden Hour Dallas</title>
   </head>
   <body>
-    <div id="map"></div>
+    <h1 class="sr-only">Golden Hour Dallas</h1>
+    <div id="map" role="application" aria-label="Dallas viewing spots map"></div>
+
+    <div class="top-cluster">
+      <div class="mode-pill" role="radiogroup" aria-label="Sunrise or sunset">
+        <label class="mode-opt">
+          <input type="radio" name="mode" value="sunrise" />
+          <span class="mode-opt__face">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8" />
+              <path
+                d="M12 3.2v2.1M12 18.7v2.1M4.9 4.9l1.5 1.5M17.6 17.6l1.5 1.5M3.2 12h2.1M18.7 12h2.1M4.9 19.1l1.5-1.5M17.6 6.4l1.5-1.5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+            </svg>
+            Sunrise
+          </span>
+        </label>
+        <label class="mode-opt">
+          <input type="radio" name="mode" value="sunset" />
+          <span class="mode-opt__face">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M5 17.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <path
+                d="M7.2 17.5a4.8 4.8 0 0 1 9.6 0"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+              <path
+                d="M12 4.2v2M5.4 8.1l1.4 1.4M17.2 9.5l1.4-1.4M3.6 13.2h2M18.4 13.2h2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+            </svg>
+            Sunset
+          </span>
+        </label>
+      </div>
+
+      <label class="date-chip">
+        <input id="date-input" type="date" />
+        <span class="date-chip__face">
+          <span id="date-label"></span>
+          <span class="date-chip__rule" aria-hidden="true"></span>
+          <span id="date-time" class="tabular"></span>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <rect x="4" y="5.5" width="16" height="14" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8" />
+            <path
+              d="M8 3.8v3.4M16 3.8v3.4M4 10h16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+      </label>
+    </div>
+
+    <div class="map-nav" role="group" aria-label="Map controls">
+      <button type="button" id="zoom-in" aria-label="Zoom in"></button>
+      <button type="button" id="zoom-out" aria-label="Zoom out"></button>
+      <button type="button" id="compass" aria-label="Reset north"></button>
+    </div>
+
+    <section class="sheet" id="sheet" aria-live="polite">
+      <div class="sheet__inner is-empty" id="sheet-inner">
+        <p class="sheet-empty">Tap a spot</p>
+      </div>
+    </section>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
