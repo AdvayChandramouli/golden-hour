@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "golden-hour"
+version = "0.1.0"
+description = "Schema models and validator for Golden Hour Dallas spots.geojson"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2",
+  "jsonschema>=4.20",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+golden-hour-validate = "golden_hour.validate:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["golden_hour*"]

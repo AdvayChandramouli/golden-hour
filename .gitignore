@@ -1,0 +1,25 @@
+# Node
+node_modules/
+web/dist/
+web/.vite/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+golden_hour.egg-info/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+
+# Local / secrets
+.env
+.env.*
+*.sqlite
+*.db
+
+# OS
+.DS_Store
