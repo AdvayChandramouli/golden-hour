@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "_note": "Coordinates are approximate (best-known public locations) and need field verification before use as ground truth.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7184, 32.8365]
+      },
+      "properties": {
+        "id": "winfrey-point",
+        "name": "Winfrey Point, White Rock Lake",
+        "best_for": "both",
+        "tags": ["lake", "park"],
+        "description": "A grassy rise on the east shore of White Rock Lake where the water opens both east toward sunrise and west across the city skyline at dusk.",
+        "access": "public_free",
+        "hours_note": "Park hours; typically 5am–11pm",
+        "parking_note": "Lot at Winfrey Point Pavilion off East Lawther Drive",
+        "facing": {
+          "sunrise_view": "open",
+          "sunset_view": "open"
+        },
+        "horizon_score": {
+          "sunrise": 0.82,
+          "sunset": 0.74
+        },
+        "sources": [
+          {
+            "url": "https://www.dallasparks.org/Facilities/Facility/Details/White-Rock-Lake-Park-288",
+            "kind": "manual",
+            "retrieved_at": "2026-10-23"
+          }
+        ],
+        "mention_count": 3,
+        "verified": true,
+        "last_updated": "2026-10-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.8089, 32.7754]
+      },
+      "properties": {
+        "id": "reunion-tower",
+        "name": "Reunion Tower GeoDeck",
+        "best_for": "both",
+        "tags": ["rooftop"],
+        "description": "A paid observation deck 470 feet up, with a full 360-degree wrap around downtown, the Trinity, and the far suburbs.",
+        "access": "public_paid",
+        "hours_note": "Ticketed attraction; hours vary by season",
+        "parking_note": "Paid garage at Reunion Tower / Hyatt Regency",
+        "facing": {
+          "sunrise_view": "open",
+          "sunset_view": "open"
+        },
+        "horizon_score": {
+          "sunrise": 0.91,
+          "sunset": 0.88
+        },
+        "sources": [
+          {
+            "url": "https://www.reuniontower.com/",
+            "kind": "manual",
+            "retrieved_at": "2026-10-23"
+          }
+        ],
+        "mention_count": 4,
+        "verified": true,
+        "last_updated": "2026-10-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.8214, 32.781]
+      },
+      "properties": {
+        "id": "margaret-hunt-hill-bridge",
+        "name": "Margaret Hunt Hill Bridge",
+        "best_for": "sunset",
+        "tags": ["bridge"],
+        "description": "Santiago Calatrava's white arch over the Trinity floodway; the westbound walkway looks into the sun as it drops over the west bank.",
+        "access": "public_free",
+        "hours_note": null,
+        "parking_note": "Street parking in the Design District; walk onto the shared-use path",
+        "facing": {
+          "sunrise_view": "partial",
+          "sunset_view": "open"
+        },
+        "horizon_score": {
+          "sunrise": 0.41,
+          "sunset": 0.79
+        },
+        "sources": [
+          {
+            "url": "https://www.dallasparks.org/",
+            "kind": "manual",
+            "retrieved_at": "2026-10-23"
+          }
+        ],
+        "mention_count": 2,
+        "verified": true,
+        "last_updated": "2026-10-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.8016, 32.7895]
+      },
+      "properties": {
+        "id": "klyde-warren-park",
+        "name": "Klyde Warren Park",
+        "best_for": "sunset",
+        "tags": ["park", "plaza"],
+        "description": "A deck park over the Woodall Rodgers Freeway. The west lawn and fountain plaza catch late light on the Arts District towers.",
+        "access": "public_free",
+        "hours_note": "Park generally 6am–11pm",
+        "parking_note": "Paid garage under the park; street parking on Pearl and St. Paul",
+        "facing": {
+          "sunrise_view": "blocked",
+          "sunset_view": "partial"
+        },
+        "horizon_score": {
+          "sunrise": 0.22,
+          "sunset": 0.55
+        },
+        "sources": [
+          {
+            "url": "https://www.klydewarrenpark.org/",
+            "kind": "manual",
+            "retrieved_at": "2026-10-23"
+          }
+        ],
+        "mention_count": 2,
+        "verified": true,
+        "last_updated": "2026-10-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.8235, 32.7698]
+      },
+      "properties": {
+        "id": "trinity-overlook-park",
+        "name": "Trinity Overlook Park",
+        "best_for": "sunset",
+        "tags": ["overlook", "park"],
+        "description": "A small bluff park above the Trinity River with an uncluttered west view across the floodway and the cable-stayed bridges.",
+        "access": "public_free",
+        "hours_note": "Dawn to dusk",
+        "parking_note": "Small lot off Continental Avenue / Riverfront Boulevard",
+        "facing": {
+          "sunrise_view": "blocked",
+          "sunset_view": "open"
+        },
+        "horizon_score": {
+          "sunrise": 0.18,
+          "sunset": 0.81
+        },
+        "sources": [
+          {
+            "url": "https://www.dallasparks.org/",
+            "kind": "manual",
+            "retrieved_at": "2026-10-23"
+          }
+        ],
+        "mention_count": 2,
+        "verified": true,
+        "last_updated": "2026-10-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7985, 32.7818]
+      },
+      "properties": {
+        "id": "pacific-place-garage",
+        "name": "Pacific Place garage roof (unverified)",
+        "best_for": "sunrise",
+        "tags": ["garage", "rooftop"],
+        "description": "A downtown parking structure whose top deck is rumored to clear nearby towers to the east. Access rules are unclear; do not treat this as an invitation to trespass.",
+        "access": "unknown",
+        "hours_note": null,
+        "parking_note": "Paid garage; rooftop access may be gated or reserved for parkers",
+        "facing": {
+          "sunrise_view": "unknown",
+          "sunset_view": "unknown"
+        },
+        "horizon_score": null,
+        "sources": [
+          {
+            "url": "https://example.invalid/manual-placeholder",
+            "kind": "manual",
+            "retrieved_at": "2026-10-23"
+          }
+        ],
+        "mention_count": 1,
+        "verified": false,
+        "last_updated": "2026-10-23"
+      }
+    }
+  ]
+}
